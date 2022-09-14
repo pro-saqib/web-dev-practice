@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+
+    <style>
+        nav{
+            background-color: aquamarine;
+            height: 30px;
+            text-align: center;
+            
+        }
+        li{
+            padding: 5px;
+            margin: auto;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: greenyellow;
+            color: red;
+            text-decoration: underline;
+        }
+
+        p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+<hr>
+    <div>Hover over this div element to show the p element
+        <p>Tada! Here I am!</p>
+      </div>
+</body>
+</html>

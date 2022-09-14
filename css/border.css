@@ -1,0 +1,11 @@
+#p1{
+    border-style: solid;
+    color: green;
+    padding: 2px;
+}
+
+#p2{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 2px;
+}

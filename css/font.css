@@ -1,0 +1,31 @@
+#family{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#style{
+    font-style: italic;
+}
+#weight{
+    font-weight: 700;
+}
+#px{
+    font-size: 20px;
+}
+#em{
+    font-size: 1.5em;
+}
+#vw{
+    font-size: 5vw;
+}
+
+#gf1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 30px;
+}
+#gf2{
+    font-family: 'Sofia', cursive;
+    font-size: 30px;
+}
+
+#shorthand{
+        font: italic bold 12px/20px Georgia, serif;
+}
