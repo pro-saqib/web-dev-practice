@@ -8,3 +8,4 @@ Fjalla One and Libre Baskerville
 Space Mono and Muli
 Spectral and Rubik
 Oswald and Noto Sans
+Poppins
